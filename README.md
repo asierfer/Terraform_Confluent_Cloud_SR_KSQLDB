@@ -1,10 +1,8 @@
 # Terraform_Confluent_Cloud_SR_KSQLDB
-Terraform code to build a Confluent Cloud Standard cluster with Schema Registry, one topic with a schema, and KSQLDB activated
+Terraform_Confluent_Cloud_SR_KSQLDB is Terraform code that builds a Confluent Cloud Standard cluster with Schema Registry, one topic with a schema, and KSQLDB activated. This code is for demo purposes and has two parts:
 
-This code is for demo purpouises and has two parts;
-1- Show how Terraform allows to manage schemas (user-purchase-avsc)
-2- Activate a KSQLDB to import using Confluent CLI a pipeline code to show Stream Designer
-  This is easy using CLI and the example attached (ksqldb-pipeline.sql) and the following steps
+1- It demonstrates how Terraform can manage schemas (specifically, user-purchase-avsc)
+2- It shows how to activate KSQLDB and import a pipeline code using Confluent CLI to display in Stream Designer. This process is easy using the CLI and the example attached (ksqldb-pipeline.sql) and the following steps
   
   a)confluent login
   b)confluent environment use ENVIRONMENTID
